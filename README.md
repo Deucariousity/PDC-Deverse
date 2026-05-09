@@ -116,7 +116,14 @@ Member 4 - Seromines, Ralph Joshua
 
 Member 1 - Baclayo, Myka Angelie
 
-Write your reflection here.
+Before this activity, i understood distributed systems mostly in theory. Building one on gcp made the concepts more concrete, though it came with a fair share of confusion along the way.
+
+Setting up the cloud environment took longer than expected. Configuring pub/sub, firestore, and cloud run required a lot of attention to detail, and small mistakes caused issues that were not always easy to trace.
+Running the edge node script was straightforward once everything was connected. What stood out was how independently each node operated, which reflects how real distributed clients behave.
+
+The fault injection part was the most informative. When the worker was disabled, the api kept accepting requests and pub/sub continued buffering messages. When the worker was restored, it processed everything automatically. That showed me what fault tolerance actually looks like in practice.
+
+Idempotency was something i underestimated at first. After seeing duplicate votes appear during the simulation, it became clear why a composite document id in firestore matters. Without it, duplicates would silently corrupt the data.The activity gave me a clearer picture of how distributed systems handle failure. A system does not need to be perfect to be reliable.
 
 Member 2 - Dinorog, Artjohn Clark Dinorog
 
