@@ -94,13 +94,13 @@ Replace with your deployed URL:
 
 
 
-Demo Video Link
+> Demo Video Link
 
 Add your demo video or GIF link here.
 
 
 
-Group Members
+> Group Members
 
 Member 1 - Baclayo, Myka Angelie
 
@@ -112,7 +112,7 @@ Member 4 - Seromines, Ralph Joshua
 
 
 
-Individual Reflections
+> Individual Reflections
 
 Member 1 - Baclayo, Myka Angelie
 
