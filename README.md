@@ -124,7 +124,7 @@ Write your reflection here.
 
 Member 3 - Oplimo, Kent
 
-Write your reflection here.
+        This project helped me better understand the distributed systems and cloud computing using Google Cloud Platform. I learned how different services like Cloud Run, Pub/Sub, and Firestore work together to create a reliable and fault-tolerant voting system. The project also showed the importance of asynchronous processing and message buffering during failures. Through deployment and fault injection testing, I gained practical experience in building scalable systems that can recover automatically and continue operating efficiently even when some components fail.
 
 Member 4 - Seromines, Ralph Joshua
 
