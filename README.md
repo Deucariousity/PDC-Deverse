@@ -92,9 +92,13 @@ Cloud Run API Endpoint
 Replace with your deployed URL:
 `https://https:/voting-api-110300713239.asia-southeast1.run.app/vote`
 
+
+
 Demo Video Link
 
 Add your demo video or GIF link here.
+
+
 
 Group Members
 
@@ -106,7 +110,10 @@ Member 3 - Oplimo, Kent
 
 Member 4 - Seromines, Ralph Joshua
 
+
+
 Individual Reflections
+
 Member 1 - Baclayo, Myka Angelie
 
 Write your reflection here.
@@ -122,6 +129,8 @@ Write your reflection here.
 Member 4 - Seromines, Ralph Joshua
 
 Write your reflection here.
+
+
 
 Conclusion
 The distributed voting system successfully demonstrated event-driven communication, asynchronous processing, fault tolerance, and persistent storage using Google Cloud Platform.
