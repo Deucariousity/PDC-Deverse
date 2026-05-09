@@ -94,13 +94,13 @@ Replace with your deployed URL:
 
 
 
-Demo Video Link
+> Demo Video Link
 
 Add your demo video or GIF link here.
 
 
 
-Group Members
+> Group Members
 
 Member 1 - Baclayo, Myka Angelie
 
@@ -112,7 +112,7 @@ Member 4 - Seromines, Ralph Joshua
 
 
 
-Individual Reflections
+> Individual Reflections
 
 Member 1 - Baclayo, Myka Angelie
 
@@ -120,11 +120,11 @@ Write your reflection here.
 
 Member 2 - Dinorog, Artjohn Clark Dinorog
 
-Write your reflection here.
+Working on this laboratory activity gave me a much better understanding of how distributed systems work in real life. At first, setting up Google Cloud services like Cloud Run, Pub/Sub, and Firestore was challenging, and I encountered several errors during deployment and configuration. However, as I connected each component and saw the votes move from the edge nodes to the API, through Pub/Sub, and finally into Firestore, the overall architecture became much clearer. What impressed me most was how the system continued to accept votes even when the worker service was disabled, and how everything recovered automatically once the worker was restored. This showed me how distributed systems are designed to handle failures without losing data. I also learned how techniques like retries and idempotency help keep the system reliable and consistent. Overall, this project was both challenging and rewarding, and it gave me practical experience and confidence in building scalable and fault-tolerant applications in the cloud.
 
 Member 3 - Oplimo, Kent
 
-        This project helped me better understand the distributed systems and cloud computing using Google Cloud Platform. I learned how different services like Cloud Run, Pub/Sub, and Firestore work together to create a reliable and fault-tolerant voting system. The project also showed the importance of asynchronous processing and message buffering during failures. Through deployment and fault injection testing, I gained practical experience in building scalable systems that can recover automatically and continue operating efficiently even when some components fail.
+ This project helped me better understand the distributed systems and cloud computing using Google Cloud Platform. I learned how different services like Cloud Run, Pub/Sub, and Firestore work together to create a reliable and fault-tolerant voting system. The project also showed the importance of asynchronous processing and message buffering during failures. Through deployment and fault injection testing, I gained practical experience in building scalable systems that can recover automatically and continue operating efficiently even when some components fail.
 
 Member 4 - Seromines, Ralph Joshua
 
@@ -132,5 +132,5 @@ Write your reflection here.
 
 
 
-Conclusion
+> Conclusion:
 The distributed voting system successfully demonstrated event-driven communication, asynchronous processing, fault tolerance, and persistent storage using Google Cloud Platform.
