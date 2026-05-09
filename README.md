@@ -96,7 +96,7 @@ Replace with your deployed URL:
 
 > Demo Video Link
 
-Add your demo video or GIF link here.
+(https://drive.google.com/file/d/1ZdjxDr9azHNwq_fMODZtKaTr0TPt7Xby/view?usp=sharing)
 
 
 
@@ -116,14 +116,14 @@ Member 4 - Seromines, Ralph Joshua
 
 Member 1 - Baclayo, Myka Angelie
 
-Before this activity, i understood distributed systems mostly in theory. Building one on gcp made the concepts more concrete, though it came with a fair share of confusion along the way.
+Before this activity, I understood distributed systems mostly in theory. Building one on gcp made the concepts more concrete, though it came with a fair share of confusion along the way.
 
 Setting up the cloud environment took longer than expected. Configuring pub/sub, firestore, and cloud run required a lot of attention to detail, and small mistakes caused issues that were not always easy to trace.
 Running the edge node script was straightforward once everything was connected. What stood out was how independently each node operated, which reflects how real distributed clients behave.
 
 The fault injection part was the most informative. When the worker was disabled, the api kept accepting requests and pub/sub continued buffering messages. When the worker was restored, it processed everything automatically. That showed me what fault tolerance actually looks like in practice.
 
-Idempotency was something i underestimated at first. After seeing duplicate votes appear during the simulation, it became clear why a composite document id in firestore matters. Without it, duplicates would silently corrupt the data.The activity gave me a clearer picture of how distributed systems handle failure. A system does not need to be perfect to be reliable.
+Idempotency was something I underestimated at first. After seeing duplicate votes appear during the simulation, it became clear why a composite document id in firestore matters. Without it, duplicates would silently corrupt the data.The activity gave me a clearer picture of how distributed systems handle failure. A system does not need to be perfect to be reliable.
 
 Member 2 - Dinorog, Artjohn Clark Dinorog
 
@@ -134,8 +134,6 @@ Member 3 - Oplimo, Kent
  This project helped me better understand the distributed systems and cloud computing using Google Cloud Platform. I learned how different services like Cloud Run, Pub/Sub, and Firestore work together to create a reliable and fault-tolerant voting system. The project also showed the importance of asynchronous processing and message buffering during failures. Through deployment and fault injection testing, I gained practical experience in building scalable systems that can recover automatically and continue operating efficiently even when some components fail.
 
 Member 4 - Seromines, Ralph Joshua
-
-Write your reflection here.
 
 This project helped me understand how distributed systems work in real-world environments using Google Cloud Platform. The system was divided into three services—API, Worker, and Edge Nodes—to improve scalability, resilience, and maintainability. Using Cloud Run, Pub/Sub, and Firestore allowed us to focus more on the system logic instead of managing infrastructure.
 
