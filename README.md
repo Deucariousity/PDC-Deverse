@@ -132,5 +132,5 @@ Write your reflection here.
 
 
 
-> Conclusion
+> Conclusion:
 The distributed voting system successfully demonstrated event-driven communication, asynchronous processing, fault tolerance, and persistent storage using Google Cloud Platform.
