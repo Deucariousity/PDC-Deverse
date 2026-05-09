@@ -130,6 +130,16 @@ Member 4 - Seromines, Ralph Joshua
 
 Write your reflection here.
 
+This project helped me understand how distributed systems work in real-world environments using Google Cloud Platform. The system was divided into three services—API, Worker, and Edge Nodes—to improve scalability, resilience, and maintainability. Using Cloud Run, Pub/Sub, and Firestore allowed us to focus more on the system logic instead of managing infrastructure.
+
+One of the biggest lessons was learning how asynchronous communication improves reliability. Instead of directly writing votes to the database, the API sends messages through Pub/Sub, allowing the system to continue accepting requests even if the worker service is delayed or temporarily unavailable.
+
+We also encountered challenges such as duplicate messages because Pub/Sub uses “at-least-once” delivery. To solve this, we implemented idempotent processing in the worker so repeated messages would not affect the final results. Testing failures like disabling services or simulating network issues also showed how fault tolerance works in practice.
+
+This project demonstrated important distributed systems concepts such as scalability, eventual consistency, asynchronous processing, and fault tolerance. It also taught me that collaboration and careful testing are very important because even small changes can affect multiple services across the system.
+
+Overall, this project gave me practical experience in building cloud-based distributed applications and helped me better understand how modern scalable systems are designed and maintained.
+
 
 
 > Conclusion:
