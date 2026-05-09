@@ -93,6 +93,7 @@ Replace with your deployed URL:
 `https://https:/voting-api-110300713239.asia-southeast1.run.app/vote`
 
 Demo Video Link
+
 Add your demo video or GIF link here.
 
 Group Members
@@ -103,15 +104,19 @@ Member 4 - Seromines, Ralph Joshua
 
 Individual Reflections
 Member 1 - Baclayo, Myka Angelie
+
 Write your reflection here.
 
 Member 2 - Dinorog, Artjohn Clark Dinorog
+
 Write your reflection here.
 
 Member 3 - Oplimo, Kent
+
 Write your reflection here.
 
 Member 4 - Seromines, Ralph Joshua
+
 Write your reflection here.
 
 Conclusion
