@@ -97,9 +97,13 @@ Demo Video Link
 Add your demo video or GIF link here.
 
 Group Members
+
 Member 1 - Baclayo, Myka Angelie
+
 Member 2 - Dinorog, Artjohn Clark Dinorog
+
 Member 3 - Oplimo, Kent
+
 Member 4 - Seromines, Ralph Joshua
 
 Individual Reflections
